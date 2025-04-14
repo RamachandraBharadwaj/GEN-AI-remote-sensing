@@ -1,0 +1,9 @@
+# Virtual environment files
+venv/
+
+
+
+# Git and Docker-related files
+.git/
+.gitignore
+docker-compose.yml

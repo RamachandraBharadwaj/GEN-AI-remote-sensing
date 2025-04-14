@@ -1,0 +1,106 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/ios/Flutter/.last_build_id
+**/android/.gradle
+**/android/captures/
+**/android/local.properties
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/
+**/android/**/GeneratedPluginRegistrant.*
+
+# Flutter Web related
+**/lib/generated_plugin_registrant.dart
+
+# Python/Flask specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.env
+*.egg-info/
+.installed.cfg
+*.egg
+instance/
+.webassets-cache
+
+# Machine Learning models (large binary files)
+*.h5
+*.pkl
+*.model
+models/
+saved_models/
+
+# Virtual environment files
+venv/
+
+# Git and Docker-related files
+.git/
+docker-compose.yml
+
+# Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+x64/
+x86/
+*.[Cc]ache
+!*.[Cc]ache/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Machine Learning model files - global patterns
+*.pth
+*.onnx
+
+# Specific model file paths
+SARS-master/lib/*.pth
+SARS-master/lib/*.h5
+SARS-master/lib/*.onnx
+3-1Flask/*.onnx
+3-1Flask/*.h5
+3-1Flask/flood_model.onnx
+3-1Flask/sar2rgb.onnx
+3-1Flask/vit_model.onnx
