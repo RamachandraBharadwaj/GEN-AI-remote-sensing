@@ -96,9 +96,9 @@ Thumbs.db
 *.onnx
 
 # Specific model file paths
-SARS-master/lib/*.pth
-SARS-master/lib/*.h5
-SARS-master/lib/*.onnx
+SARS-app/lib/*.pth
+SARS-app/lib/*.h5
+SARS-app/lib/*.onnx
 3-1Flask/*.onnx
 3-1Flask/*.h5
 3-1Flask/flood_model.onnx
